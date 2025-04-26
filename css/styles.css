@@ -1,4 +1,4 @@
-* body {
+body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
   color: #22343d;
@@ -167,4 +167,22 @@ button {
   margin-right: 84px;
   width: 486px;
   height: 418px;
+}
+
+/*FOOTER*/
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+.social-footer-item .social-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #edfffc;
+  fill: #02897a;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
